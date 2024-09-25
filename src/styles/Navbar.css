@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    border: 5px salmon solid;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.navitems{
+    display: flex;
+    flex-direction: row;
+    border: 5px rgb(66, 190, 159) solid;
+    justify-content: flex-end;
+    list-style: none;
+    column-gap: 10px;
+
+}
+
+.navitems:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.navitems .logo{
+
+    border: 5px rgb(121, 70, 163) solid;
+    border-radius: 50%;
+}
+.navitems .name{
+    border: 5px rgb(27, 27, 27) solid;
+}
+
+.navitem{
+    border: 5px rgb(153, 119, 56) solid;
+}
