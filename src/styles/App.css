@@ -1,5 +1,14 @@
 body{
-
-    cursor: url('../assests/cursor.svg'),auto;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Suisse Int\'l Trial';
+    background-color: #FFFFFF;
+    cursor: url('../assets/cursor.svg'),auto;
   
 }
+
+a, button:hover{
+    cursor: url('../assets/cursor-dark.svg'),auto;
+    transition:0.2s ease;
+}
+

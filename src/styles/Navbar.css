@@ -1,8 +1,11 @@
 .navbar{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -15,13 +18,21 @@
 
 }
 
-.navitems:nth-child(1){
+.navitems .left{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     
 }
 .navitems .logo{
+    display: flex;
+    align-items: center;
     border-radius: 50%;
+}
+
+.navitems .name{
+    display: flex;
+    align-items: center;
 }
 

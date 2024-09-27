@@ -1,19 +1,18 @@
  import '../styles/Navbar.css'
+ import ShyamLogo from '../assets/shyam-logo.svg'
  function Navbar()
 {
     return(<>
     <div className="navbar">
-        <div className="navitems">
+        <div className="navitems left">
         <div className="navitem logo" >
-                Logo
+                <img src={ShyamLogo} alt="Shyam Logo"/>
             </div>
             <div className="navitem name">
                 SHYAM
             </div>
         </div>
-        <ul className="navitems">
-            
-            
+        <ul className="navitems right">
          
             <li className="navitem">
                 Work

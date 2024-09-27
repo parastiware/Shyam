@@ -1,0 +1,44 @@
+.Introduction{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+    padding: 10px;
+    background-image: url('../assets/Intro-background.svg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.Introduction .title{
+    margin:0px;
+    text-align: center;
+    font-size:64px;
+    font-weight: 550;
+    color: #2E2E2E;
+
+}
+
+.Introduction .text{
+    margin:0px;
+    text-align: center;
+    font-size:16px;
+
+}
+
+.Introduction .action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Introduction .action button{
+    width: 20%;
+    height: 30px;
+    background-color: #FFFFFF;
+    border: none; 
+    border-radius: 15px;
+ 
+}
+
